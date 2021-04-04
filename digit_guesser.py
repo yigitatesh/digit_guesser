@@ -45,7 +45,7 @@ class Paint(object):
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
-        pygame.display.set_caption("Paint")
+        pygame.display.set_caption("Digit Guesser")
         self.clock = pygame.time.Clock()
 
         ## Fonts
@@ -258,7 +258,7 @@ class Paint(object):
         self.predict_button = Button(self.screen, self.predict_button_x, self.predict_button_y,
                             self.predict_button_width, self.predict_button_height, self.BLACK,
                             self.LIGHTAQUAMARINE, self.AQUAMARINE, self.LIGHTAQUAMARINE, 
-                            action=lambda: self.predict_show(), text="Tahmin et", font=self.smallfont)
+                            action=lambda: self.predict_show(), text="Guess", font=self.smallfont)
         
         self.clear_button_width = 140
         self.clear_button_height = 50
@@ -267,7 +267,7 @@ class Paint(object):
         self.clear_button = Button(self.screen, self.clear_button_x, self.clear_button_y,
                                 self.clear_button_width, self.clear_button_height, self.BLACK,
                                 self.LIGHTAQUAMARINE, self.AQUAMARINE, self.LIGHTAQUAMARINE,
-                                action=lambda: self.clear(), text="Temizle", font=self.smallfont)
+                                action=lambda: self.clear(), text="Clear", font=self.smallfont)
 
         self.buttons = [self.predict_button, self.clear_button]
 
