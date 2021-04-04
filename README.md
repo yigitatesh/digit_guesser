@@ -17,8 +17,8 @@ Run digit_guesser.py
 - Clear all the canvas using "Clear" button
 
 # Prediction Results
-## Digits are bounded with boxes.
-## There are predictions and % confidence levels on boxes.
+Digits are bounded with boxes.
+There are predictions and % confidence levels on boxes.
 ![result 1](https://raw.githubusercontent.com/yigitatesh/digit_guesser/main/results/digit_recognizer_predictions_1.PNG)
 
 ![result 2](https://raw.githubusercontent.com/yigitatesh/digit_guesser/main/results/digit_recognizer_predictions_2.PNG)
