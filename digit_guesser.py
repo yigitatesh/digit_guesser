@@ -209,8 +209,10 @@ class Paint(object):
             cv2.rectangle(show_image, (x, y), (x2, y2), self.GREEN, 5)
 
             # text
-            cv2.putText(show_image, "{}, %{:2f}".format(preds[i], confs[i]*100),
-                (x - 5, y - 5), font, 3/4, self.RED, 2, cv2.LINE_AA)
+            cv2.putText(show_image, "Prediction: {}".format(preds[i]),
+                (x - 5, y - 35), font, 3/4, self.RED, 2, cv2.LINE_AA)
+            cv2.putText(show_image, "Confidence: %{}".format(round(confs[i]*100, 2)),
+                (x - 5, y - 10), font, 3/4, self.RED, 2, cv2.LINE_AA)
 
         cv2.imshow("image", show_image)
 
