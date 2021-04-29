@@ -24,3 +24,6 @@ There are predictions and % confidence levels on boxes. <br>
 ![result 2](https://raw.githubusercontent.com/yigitatesh/digit_guesser/main/results/digit_recognizer_predictions_2.PNG)
 
 ![result 3](https://raw.githubusercontent.com/yigitatesh/digit_guesser/main/results/digit_recognizer_predictions_3.PNG)
+
+Different styles of digit "5" and the model's predictions. <br>
+![result 4](https://raw.githubusercontent.com/yigitatesh/digit_guesser/main/results/digit_recognizer_predictions_4.PNG)
